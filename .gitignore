@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Sort It Right ---
+# Chroma vector store: rebuilt by src/build_index.py, never committed
+index/
+# YOLO model weights: downloaded automatically by ultralytics on first run
+*.pt
+# macOS Finder files
+.DS_Store
+# Claude Code: project instructions + local settings (kept private)
+CLAUDE.md
+.claude/
