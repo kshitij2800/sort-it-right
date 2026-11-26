@@ -33,18 +33,18 @@ _(none right now)_
 
 ## Work log
 
-### Brick 0 — repo, venv, packages, folders (10–11 Nov) ✅
+### Brick 0 — repo, venv, packages, folders (10–11 Nov) 
 - Created `src/ data/raw/ data/test/ notebooks/ results/ docs/` with `.gitkeep` (git doesn't track empty folders).
 - `.gitignore`: added `index/`, `*.pt`, `.DS_Store`, `CLAUDE.md`, `.claude/`.
 - `requirements.txt`: 12 packages grouped by pipeline stage, pinned after install.
 - Check passed: `import ultralytics, chromadb, streamlit` (first import ~18 s: PyTorch size + bytecode compile + macOS scan).
 
-### Brick 1 — YOLO on one image (19 Nov) ✅
+### Brick 1 — YOLO on one image (19 Nov) 
 - `src/detect.py`: load `yolo26n.pt`, run on an image from the command line, print `label conf`, save boxed image.
 - Sample `bus.jpg`: bus 0.88, people 0.65–0.87 (half-visible person scored lowest).
 - Own photo `bottle_01.jpeg`: **bottle 0.91**. Also detected chair 0.63, dining table 0.63 → motivated the waste filter.
 
-### Brick 2 — waste filter + threshold experiment (26 Nov) ✅
+### Brick 2 — waste filter + threshold experiment (26 Nov) 
 - `src/detect.py` split into `all_detections()` → `pick_best(detections, conf)` → `detect(image, conf)`.
   - `WASTE_CLASSES` = bottle, cup, wine glass, bowl, banana, apple, orange, book, carrot, spoon.
   - `DEFAULT_CONF = 0.3`, chosen by the experiment (was a 0.4 placeholder).
