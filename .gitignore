@@ -232,3 +232,5 @@ CLAUDE.md
 # Downloaded sorting guides: copyrighted, rebuilt by src/download_sources.py
 data/raw/*
 !data/raw/.gitkeep
+# Chunks contain the guides' text word for word -> same copyright reason, rebuilt by src/ingest.py
+data/chunks.jsonl
