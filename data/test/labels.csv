@@ -1,0 +1,35 @@
+file,item,true_label,scenario
+bottle_01.jpeg,bottle,bottle,clutter
+bottle_02.jpeg,bottle,bottle,easy
+bottle_03.jpeg,bottle,bottle,dim
+bottle_04.jpeg,bottle,bottle,far
+bottle_05.jpeg,bottle,bottle,held
+bottle_06.jpeg,bottle,bottle,odd pose
+can_01.jpeg,can,none|bottle,clutter
+can_02.jpeg,can,none|bottle,easy
+can_03.jpeg,can,none|bottle,dim
+can_04.jpeg,can,none|bottle,far
+can_05.jpeg,can,none|bottle,held
+can_06.jpeg,can,none|bottle,odd pose
+glass_01.jpeg,glass,cup|wine glass,clutter
+glass_02.jpeg,glass,cup|wine glass,easy
+glass_03.jpeg,glass,cup|wine glass,dim
+glass_04.jpeg,glass,cup|wine glass,far
+glass_05.jpeg,glass,cup|wine glass,held
+glass_06.jpeg,glass,cup|wine glass,odd pose
+carrot_01.jpeg,carrot,carrot,clutter
+carrot_02.jpeg,carrot,carrot,easy
+carrot_03.jpeg,carrot,carrot,dim
+carrot_04.jpeg,carrot,carrot,far
+carrot_05.jpeg,carrot,carrot,held
+carrot_06.jpeg,carrot,carrot,odd pose
+spoon_01.jpeg,spoon,spoon,clutter
+spoon_02.jpeg,spoon,spoon,easy
+spoon_03.jpeg,spoon,spoon,dim
+spoon_04.jpeg,spoon,spoon,far
+spoon_05.jpeg,spoon,spoon,held
+spoon_06.jpeg,spoon,spoon,odd pose
+none_01.jpeg,none,none,empty curtain
+none_02.jpeg,none,none,texture close-up
+none_03.jpeg,none,none,empty hand
+none_04.jpeg,none,none,blank wall
