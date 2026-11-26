@@ -229,3 +229,6 @@ index/
 # Claude Code: project instructions + local settings (kept private)
 CLAUDE.md
 .claude/
+# Downloaded sorting guides: copyrighted, rebuilt by src/download_sources.py
+data/raw/*
+!data/raw/.gitkeep

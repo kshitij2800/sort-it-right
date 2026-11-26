@@ -24,6 +24,8 @@ Running log of what was built, what changed, and **why**. Newest entries at the 
 | 26 Nov | Keep the 4 `none` photos as taken (curtain, texture close-up, empty hand, blank wall) | Time; they still check the basic case. **Limitation:** they are easy scenes with no object-like shapes, so they say little about false alarms at low thresholds — mention this with the results and in LIMITATIONS.md | Retake 2 with a cluttered desk and a tricky non-waste object (remote, etc.) |
 | 26 Nov | **Threshold decision rule** (set *before* seeing results): pick the threshold with the fewest wrong labels while still detecting ≥ 75% of the 24 detectable item photos (bottle, glass, carrot, spoon). Tie -> more correct wins | 75% is the detection target already in the testing plan. Cans excluded from the % (graded correct even when not detected, would inflate it); `none` photos excluded (nothing to detect), but their wrong count still counts | 50% (too many scans would end in manual pick); picking the threshold by eye after seeing results (not defensible) |
 | 26 Nov | **Confidence threshold = 0.3** (`DEFAULT_CONF` in `src/detect.py`) | Highest detection rate of any threshold (14/24 = 58%, tied with 0.1–0.25) and the only one of those with **0 wrong labels** (0.1–0.25 call `bottle_06` a banana at 0.28). Higher thresholds don't reduce wrong labels further (already 0) and only add misses. The 75% rule could not be met by any threshold, so 0.3 was chosen as the best trade-off; it would win under any % rule. Accepted 58% for this project because of the code freeze; the app's manual-pick fallback covers the misses | 0.25 (same detections, 1 wrong label); 0.4 (2 fewer detections, no gain); trying a bigger model `yolo26s` (no time before code freeze) |
+| 26 Nov | RAG sources: 13 English pages — Metsäsairila household guide PDF (hosted on mikkeli.fi) + sorting-instructions page + 8 per-bin pages, Rinki metal packaging, Palpa consumer FAQ, InfoFinland waste page (list in `data/sources.csv`) | Metsäsairila is Mikkeli's own waste company, so its rules come first; Rinki and Palpa add the deposit (pantti) rules that Metsäsairila only hints at; InfoFinland is a newcomer overview. All 5 test items have an answer in these pages | Other municipalities' guides (HSY, Salpakierto…): rules differ by region; Metsäsairila's Finnish-only pages (English versions exist) |
+| 26 Nov | Commit **links only**, not copies: `data/sources.csv` + `src/download_sources.py`; `data/raw/*` gitignored | Every site says "© … All rights reserved" with no reuse licence. Copies stay on the laptop, which is enough for the offline demo (the index is built locally) | Committing the files (copyright risk in a public repo) |
 | 26 Nov | Catch-up plan: drop brick 11 (YOLOE), scale testing to ~34 photos and 15 RAG questions | 4 days to code freeze; testing must not be dropped | Dropping testing (not allowed by brief) |
 
 **Open decisions**
@@ -58,6 +60,17 @@ _(none right now)_
   - `carrot_01` and `spoon_01` contain a black bowl; `bowl` is a waste class, so YOLO may pick it -> would count as wrong (realistic trap, kept on purpose).
 - Check on `bottle_01.jpeg`: chair/table filtered out, returns `bottle 0.91`.
 - Ran `python src/threshold_test.py` on all 34 photos -> results in the Experiments section below; threshold set to 0.3.
+
+### Brick 3 — collect documents + sources.csv (26 Nov) (in progress)
+- `data/sources.csv` (`file,title,url,language,downloaded_on`): 13 English pages, see decisions table.
+- `src/download_sources.py`: reads `sources.csv`, downloads each URL into `data/raw/<file>` with `requests`,
+  writes the download date back into `downloaded_on`. A failed URL is printed and skipped, not fatal.
+- Run 26 Nov: **13/13 downloaded**. Checked that every page has its own real text (130–1300 words, all different).
+- Found while checking: every Metsäsairila page starts with an "opening hours" block (Finnish on one page) ->
+  must be stripped in brick 4 (`ingest.py`) or it ends up in chunks.
+- Correction from research: in Mikkeli a **drinking glass** goes to **glass and ceramics** (eco-points / sorting stations),
+  *not* glass packaging and *not* mixed waste. Rules differ by municipality, which is why the app uses Mikkeli's own guide.
+- **To do:** read all 13 pages (done-when for brick 3).
 
 ---
 
