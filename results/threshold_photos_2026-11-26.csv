@@ -1,0 +1,341 @@
+file,item,scenario,true_label,threshold,predicted,confidence,outcome
+bottle_01.jpeg,bottle,clutter,bottle,0.1,bottle,0.912,correct
+bottle_01.jpeg,bottle,clutter,bottle,0.2,bottle,0.912,correct
+bottle_01.jpeg,bottle,clutter,bottle,0.25,bottle,0.912,correct
+bottle_01.jpeg,bottle,clutter,bottle,0.3,bottle,0.912,correct
+bottle_01.jpeg,bottle,clutter,bottle,0.4,bottle,0.912,correct
+bottle_01.jpeg,bottle,clutter,bottle,0.5,bottle,0.912,correct
+bottle_01.jpeg,bottle,clutter,bottle,0.6,bottle,0.912,correct
+bottle_01.jpeg,bottle,clutter,bottle,0.7,bottle,0.912,correct
+bottle_01.jpeg,bottle,clutter,bottle,0.8,bottle,0.912,correct
+bottle_01.jpeg,bottle,clutter,bottle,0.9,bottle,0.912,correct
+bottle_02.jpeg,bottle,easy,bottle,0.1,bottle,0.31,correct
+bottle_02.jpeg,bottle,easy,bottle,0.2,bottle,0.31,correct
+bottle_02.jpeg,bottle,easy,bottle,0.25,bottle,0.31,correct
+bottle_02.jpeg,bottle,easy,bottle,0.3,bottle,0.31,correct
+bottle_02.jpeg,bottle,easy,bottle,0.4,none,,missed
+bottle_02.jpeg,bottle,easy,bottle,0.5,none,,missed
+bottle_02.jpeg,bottle,easy,bottle,0.6,none,,missed
+bottle_02.jpeg,bottle,easy,bottle,0.7,none,,missed
+bottle_02.jpeg,bottle,easy,bottle,0.8,none,,missed
+bottle_02.jpeg,bottle,easy,bottle,0.9,none,,missed
+bottle_03.jpeg,bottle,dim,bottle,0.1,bottle,0.497,correct
+bottle_03.jpeg,bottle,dim,bottle,0.2,bottle,0.497,correct
+bottle_03.jpeg,bottle,dim,bottle,0.25,bottle,0.497,correct
+bottle_03.jpeg,bottle,dim,bottle,0.3,bottle,0.497,correct
+bottle_03.jpeg,bottle,dim,bottle,0.4,bottle,0.497,correct
+bottle_03.jpeg,bottle,dim,bottle,0.5,none,,missed
+bottle_03.jpeg,bottle,dim,bottle,0.6,none,,missed
+bottle_03.jpeg,bottle,dim,bottle,0.7,none,,missed
+bottle_03.jpeg,bottle,dim,bottle,0.8,none,,missed
+bottle_03.jpeg,bottle,dim,bottle,0.9,none,,missed
+bottle_04.jpeg,bottle,far,bottle,0.1,bottle,0.706,correct
+bottle_04.jpeg,bottle,far,bottle,0.2,bottle,0.706,correct
+bottle_04.jpeg,bottle,far,bottle,0.25,bottle,0.706,correct
+bottle_04.jpeg,bottle,far,bottle,0.3,bottle,0.706,correct
+bottle_04.jpeg,bottle,far,bottle,0.4,bottle,0.706,correct
+bottle_04.jpeg,bottle,far,bottle,0.5,bottle,0.706,correct
+bottle_04.jpeg,bottle,far,bottle,0.6,bottle,0.706,correct
+bottle_04.jpeg,bottle,far,bottle,0.7,bottle,0.706,correct
+bottle_04.jpeg,bottle,far,bottle,0.8,none,,missed
+bottle_04.jpeg,bottle,far,bottle,0.9,none,,missed
+bottle_05.jpeg,bottle,held,bottle,0.1,none,,missed
+bottle_05.jpeg,bottle,held,bottle,0.2,none,,missed
+bottle_05.jpeg,bottle,held,bottle,0.25,none,,missed
+bottle_05.jpeg,bottle,held,bottle,0.3,none,,missed
+bottle_05.jpeg,bottle,held,bottle,0.4,none,,missed
+bottle_05.jpeg,bottle,held,bottle,0.5,none,,missed
+bottle_05.jpeg,bottle,held,bottle,0.6,none,,missed
+bottle_05.jpeg,bottle,held,bottle,0.7,none,,missed
+bottle_05.jpeg,bottle,held,bottle,0.8,none,,missed
+bottle_05.jpeg,bottle,held,bottle,0.9,none,,missed
+bottle_06.jpeg,bottle,odd pose,bottle,0.1,banana,0.281,wrong
+bottle_06.jpeg,bottle,odd pose,bottle,0.2,banana,0.281,wrong
+bottle_06.jpeg,bottle,odd pose,bottle,0.25,banana,0.281,wrong
+bottle_06.jpeg,bottle,odd pose,bottle,0.3,none,,missed
+bottle_06.jpeg,bottle,odd pose,bottle,0.4,none,,missed
+bottle_06.jpeg,bottle,odd pose,bottle,0.5,none,,missed
+bottle_06.jpeg,bottle,odd pose,bottle,0.6,none,,missed
+bottle_06.jpeg,bottle,odd pose,bottle,0.7,none,,missed
+bottle_06.jpeg,bottle,odd pose,bottle,0.8,none,,missed
+bottle_06.jpeg,bottle,odd pose,bottle,0.9,none,,missed
+can_01.jpeg,can,clutter,none|bottle,0.1,none,,correct
+can_01.jpeg,can,clutter,none|bottle,0.2,none,,correct
+can_01.jpeg,can,clutter,none|bottle,0.25,none,,correct
+can_01.jpeg,can,clutter,none|bottle,0.3,none,,correct
+can_01.jpeg,can,clutter,none|bottle,0.4,none,,correct
+can_01.jpeg,can,clutter,none|bottle,0.5,none,,correct
+can_01.jpeg,can,clutter,none|bottle,0.6,none,,correct
+can_01.jpeg,can,clutter,none|bottle,0.7,none,,correct
+can_01.jpeg,can,clutter,none|bottle,0.8,none,,correct
+can_01.jpeg,can,clutter,none|bottle,0.9,none,,correct
+can_02.jpeg,can,easy,none|bottle,0.1,bottle,0.402,correct
+can_02.jpeg,can,easy,none|bottle,0.2,bottle,0.402,correct
+can_02.jpeg,can,easy,none|bottle,0.25,bottle,0.402,correct
+can_02.jpeg,can,easy,none|bottle,0.3,bottle,0.402,correct
+can_02.jpeg,can,easy,none|bottle,0.4,bottle,0.402,correct
+can_02.jpeg,can,easy,none|bottle,0.5,none,,correct
+can_02.jpeg,can,easy,none|bottle,0.6,none,,correct
+can_02.jpeg,can,easy,none|bottle,0.7,none,,correct
+can_02.jpeg,can,easy,none|bottle,0.8,none,,correct
+can_02.jpeg,can,easy,none|bottle,0.9,none,,correct
+can_03.jpeg,can,dim,none|bottle,0.1,bottle,0.628,correct
+can_03.jpeg,can,dim,none|bottle,0.2,bottle,0.628,correct
+can_03.jpeg,can,dim,none|bottle,0.25,bottle,0.628,correct
+can_03.jpeg,can,dim,none|bottle,0.3,bottle,0.628,correct
+can_03.jpeg,can,dim,none|bottle,0.4,bottle,0.628,correct
+can_03.jpeg,can,dim,none|bottle,0.5,bottle,0.628,correct
+can_03.jpeg,can,dim,none|bottle,0.6,bottle,0.628,correct
+can_03.jpeg,can,dim,none|bottle,0.7,none,,correct
+can_03.jpeg,can,dim,none|bottle,0.8,none,,correct
+can_03.jpeg,can,dim,none|bottle,0.9,none,,correct
+can_04.jpeg,can,far,none|bottle,0.1,none,,correct
+can_04.jpeg,can,far,none|bottle,0.2,none,,correct
+can_04.jpeg,can,far,none|bottle,0.25,none,,correct
+can_04.jpeg,can,far,none|bottle,0.3,none,,correct
+can_04.jpeg,can,far,none|bottle,0.4,none,,correct
+can_04.jpeg,can,far,none|bottle,0.5,none,,correct
+can_04.jpeg,can,far,none|bottle,0.6,none,,correct
+can_04.jpeg,can,far,none|bottle,0.7,none,,correct
+can_04.jpeg,can,far,none|bottle,0.8,none,,correct
+can_04.jpeg,can,far,none|bottle,0.9,none,,correct
+can_05.jpeg,can,held,none|bottle,0.1,none,,correct
+can_05.jpeg,can,held,none|bottle,0.2,none,,correct
+can_05.jpeg,can,held,none|bottle,0.25,none,,correct
+can_05.jpeg,can,held,none|bottle,0.3,none,,correct
+can_05.jpeg,can,held,none|bottle,0.4,none,,correct
+can_05.jpeg,can,held,none|bottle,0.5,none,,correct
+can_05.jpeg,can,held,none|bottle,0.6,none,,correct
+can_05.jpeg,can,held,none|bottle,0.7,none,,correct
+can_05.jpeg,can,held,none|bottle,0.8,none,,correct
+can_05.jpeg,can,held,none|bottle,0.9,none,,correct
+can_06.jpeg,can,odd pose,none|bottle,0.1,none,,correct
+can_06.jpeg,can,odd pose,none|bottle,0.2,none,,correct
+can_06.jpeg,can,odd pose,none|bottle,0.25,none,,correct
+can_06.jpeg,can,odd pose,none|bottle,0.3,none,,correct
+can_06.jpeg,can,odd pose,none|bottle,0.4,none,,correct
+can_06.jpeg,can,odd pose,none|bottle,0.5,none,,correct
+can_06.jpeg,can,odd pose,none|bottle,0.6,none,,correct
+can_06.jpeg,can,odd pose,none|bottle,0.7,none,,correct
+can_06.jpeg,can,odd pose,none|bottle,0.8,none,,correct
+can_06.jpeg,can,odd pose,none|bottle,0.9,none,,correct
+glass_01.jpeg,glass,clutter,cup|wine glass,0.1,cup,0.781,correct
+glass_01.jpeg,glass,clutter,cup|wine glass,0.2,cup,0.781,correct
+glass_01.jpeg,glass,clutter,cup|wine glass,0.25,cup,0.781,correct
+glass_01.jpeg,glass,clutter,cup|wine glass,0.3,cup,0.781,correct
+glass_01.jpeg,glass,clutter,cup|wine glass,0.4,cup,0.781,correct
+glass_01.jpeg,glass,clutter,cup|wine glass,0.5,cup,0.781,correct
+glass_01.jpeg,glass,clutter,cup|wine glass,0.6,cup,0.781,correct
+glass_01.jpeg,glass,clutter,cup|wine glass,0.7,cup,0.781,correct
+glass_01.jpeg,glass,clutter,cup|wine glass,0.8,none,,missed
+glass_01.jpeg,glass,clutter,cup|wine glass,0.9,none,,missed
+glass_02.jpeg,glass,easy,cup|wine glass,0.1,cup,0.484,correct
+glass_02.jpeg,glass,easy,cup|wine glass,0.2,cup,0.484,correct
+glass_02.jpeg,glass,easy,cup|wine glass,0.25,cup,0.484,correct
+glass_02.jpeg,glass,easy,cup|wine glass,0.3,cup,0.484,correct
+glass_02.jpeg,glass,easy,cup|wine glass,0.4,cup,0.484,correct
+glass_02.jpeg,glass,easy,cup|wine glass,0.5,none,,missed
+glass_02.jpeg,glass,easy,cup|wine glass,0.6,none,,missed
+glass_02.jpeg,glass,easy,cup|wine glass,0.7,none,,missed
+glass_02.jpeg,glass,easy,cup|wine glass,0.8,none,,missed
+glass_02.jpeg,glass,easy,cup|wine glass,0.9,none,,missed
+glass_03.jpeg,glass,dim,cup|wine glass,0.1,cup,0.862,correct
+glass_03.jpeg,glass,dim,cup|wine glass,0.2,cup,0.862,correct
+glass_03.jpeg,glass,dim,cup|wine glass,0.25,cup,0.862,correct
+glass_03.jpeg,glass,dim,cup|wine glass,0.3,cup,0.862,correct
+glass_03.jpeg,glass,dim,cup|wine glass,0.4,cup,0.862,correct
+glass_03.jpeg,glass,dim,cup|wine glass,0.5,cup,0.862,correct
+glass_03.jpeg,glass,dim,cup|wine glass,0.6,cup,0.862,correct
+glass_03.jpeg,glass,dim,cup|wine glass,0.7,cup,0.862,correct
+glass_03.jpeg,glass,dim,cup|wine glass,0.8,cup,0.862,correct
+glass_03.jpeg,glass,dim,cup|wine glass,0.9,none,,missed
+glass_04.jpeg,glass,far,cup|wine glass,0.1,none,,missed
+glass_04.jpeg,glass,far,cup|wine glass,0.2,none,,missed
+glass_04.jpeg,glass,far,cup|wine glass,0.25,none,,missed
+glass_04.jpeg,glass,far,cup|wine glass,0.3,none,,missed
+glass_04.jpeg,glass,far,cup|wine glass,0.4,none,,missed
+glass_04.jpeg,glass,far,cup|wine glass,0.5,none,,missed
+glass_04.jpeg,glass,far,cup|wine glass,0.6,none,,missed
+glass_04.jpeg,glass,far,cup|wine glass,0.7,none,,missed
+glass_04.jpeg,glass,far,cup|wine glass,0.8,none,,missed
+glass_04.jpeg,glass,far,cup|wine glass,0.9,none,,missed
+glass_05.jpeg,glass,held,cup|wine glass,0.1,none,,missed
+glass_05.jpeg,glass,held,cup|wine glass,0.2,none,,missed
+glass_05.jpeg,glass,held,cup|wine glass,0.25,none,,missed
+glass_05.jpeg,glass,held,cup|wine glass,0.3,none,,missed
+glass_05.jpeg,glass,held,cup|wine glass,0.4,none,,missed
+glass_05.jpeg,glass,held,cup|wine glass,0.5,none,,missed
+glass_05.jpeg,glass,held,cup|wine glass,0.6,none,,missed
+glass_05.jpeg,glass,held,cup|wine glass,0.7,none,,missed
+glass_05.jpeg,glass,held,cup|wine glass,0.8,none,,missed
+glass_05.jpeg,glass,held,cup|wine glass,0.9,none,,missed
+glass_06.jpeg,glass,odd pose,cup|wine glass,0.1,none,,missed
+glass_06.jpeg,glass,odd pose,cup|wine glass,0.2,none,,missed
+glass_06.jpeg,glass,odd pose,cup|wine glass,0.25,none,,missed
+glass_06.jpeg,glass,odd pose,cup|wine glass,0.3,none,,missed
+glass_06.jpeg,glass,odd pose,cup|wine glass,0.4,none,,missed
+glass_06.jpeg,glass,odd pose,cup|wine glass,0.5,none,,missed
+glass_06.jpeg,glass,odd pose,cup|wine glass,0.6,none,,missed
+glass_06.jpeg,glass,odd pose,cup|wine glass,0.7,none,,missed
+glass_06.jpeg,glass,odd pose,cup|wine glass,0.8,none,,missed
+glass_06.jpeg,glass,odd pose,cup|wine glass,0.9,none,,missed
+carrot_01.jpeg,carrot,clutter,carrot,0.1,none,,missed
+carrot_01.jpeg,carrot,clutter,carrot,0.2,none,,missed
+carrot_01.jpeg,carrot,clutter,carrot,0.25,none,,missed
+carrot_01.jpeg,carrot,clutter,carrot,0.3,none,,missed
+carrot_01.jpeg,carrot,clutter,carrot,0.4,none,,missed
+carrot_01.jpeg,carrot,clutter,carrot,0.5,none,,missed
+carrot_01.jpeg,carrot,clutter,carrot,0.6,none,,missed
+carrot_01.jpeg,carrot,clutter,carrot,0.7,none,,missed
+carrot_01.jpeg,carrot,clutter,carrot,0.8,none,,missed
+carrot_01.jpeg,carrot,clutter,carrot,0.9,none,,missed
+carrot_02.jpeg,carrot,easy,carrot,0.1,carrot,0.693,correct
+carrot_02.jpeg,carrot,easy,carrot,0.2,carrot,0.693,correct
+carrot_02.jpeg,carrot,easy,carrot,0.25,carrot,0.693,correct
+carrot_02.jpeg,carrot,easy,carrot,0.3,carrot,0.693,correct
+carrot_02.jpeg,carrot,easy,carrot,0.4,carrot,0.693,correct
+carrot_02.jpeg,carrot,easy,carrot,0.5,carrot,0.693,correct
+carrot_02.jpeg,carrot,easy,carrot,0.6,carrot,0.693,correct
+carrot_02.jpeg,carrot,easy,carrot,0.7,none,,missed
+carrot_02.jpeg,carrot,easy,carrot,0.8,none,,missed
+carrot_02.jpeg,carrot,easy,carrot,0.9,none,,missed
+carrot_03.jpeg,carrot,dim,carrot,0.1,carrot,0.355,correct
+carrot_03.jpeg,carrot,dim,carrot,0.2,carrot,0.355,correct
+carrot_03.jpeg,carrot,dim,carrot,0.25,carrot,0.355,correct
+carrot_03.jpeg,carrot,dim,carrot,0.3,carrot,0.355,correct
+carrot_03.jpeg,carrot,dim,carrot,0.4,none,,missed
+carrot_03.jpeg,carrot,dim,carrot,0.5,none,,missed
+carrot_03.jpeg,carrot,dim,carrot,0.6,none,,missed
+carrot_03.jpeg,carrot,dim,carrot,0.7,none,,missed
+carrot_03.jpeg,carrot,dim,carrot,0.8,none,,missed
+carrot_03.jpeg,carrot,dim,carrot,0.9,none,,missed
+carrot_04.jpeg,carrot,far,carrot,0.1,none,,missed
+carrot_04.jpeg,carrot,far,carrot,0.2,none,,missed
+carrot_04.jpeg,carrot,far,carrot,0.25,none,,missed
+carrot_04.jpeg,carrot,far,carrot,0.3,none,,missed
+carrot_04.jpeg,carrot,far,carrot,0.4,none,,missed
+carrot_04.jpeg,carrot,far,carrot,0.5,none,,missed
+carrot_04.jpeg,carrot,far,carrot,0.6,none,,missed
+carrot_04.jpeg,carrot,far,carrot,0.7,none,,missed
+carrot_04.jpeg,carrot,far,carrot,0.8,none,,missed
+carrot_04.jpeg,carrot,far,carrot,0.9,none,,missed
+carrot_05.jpeg,carrot,held,carrot,0.1,carrot,0.863,correct
+carrot_05.jpeg,carrot,held,carrot,0.2,carrot,0.863,correct
+carrot_05.jpeg,carrot,held,carrot,0.25,carrot,0.863,correct
+carrot_05.jpeg,carrot,held,carrot,0.3,carrot,0.863,correct
+carrot_05.jpeg,carrot,held,carrot,0.4,carrot,0.863,correct
+carrot_05.jpeg,carrot,held,carrot,0.5,carrot,0.863,correct
+carrot_05.jpeg,carrot,held,carrot,0.6,carrot,0.863,correct
+carrot_05.jpeg,carrot,held,carrot,0.7,carrot,0.863,correct
+carrot_05.jpeg,carrot,held,carrot,0.8,carrot,0.863,correct
+carrot_05.jpeg,carrot,held,carrot,0.9,none,,missed
+carrot_06.jpeg,carrot,odd pose,carrot,0.1,carrot,0.819,correct
+carrot_06.jpeg,carrot,odd pose,carrot,0.2,carrot,0.819,correct
+carrot_06.jpeg,carrot,odd pose,carrot,0.25,carrot,0.819,correct
+carrot_06.jpeg,carrot,odd pose,carrot,0.3,carrot,0.819,correct
+carrot_06.jpeg,carrot,odd pose,carrot,0.4,carrot,0.819,correct
+carrot_06.jpeg,carrot,odd pose,carrot,0.5,carrot,0.819,correct
+carrot_06.jpeg,carrot,odd pose,carrot,0.6,carrot,0.819,correct
+carrot_06.jpeg,carrot,odd pose,carrot,0.7,carrot,0.819,correct
+carrot_06.jpeg,carrot,odd pose,carrot,0.8,carrot,0.819,correct
+carrot_06.jpeg,carrot,odd pose,carrot,0.9,none,,missed
+spoon_01.jpeg,spoon,clutter,spoon,0.1,none,,missed
+spoon_01.jpeg,spoon,clutter,spoon,0.2,none,,missed
+spoon_01.jpeg,spoon,clutter,spoon,0.25,none,,missed
+spoon_01.jpeg,spoon,clutter,spoon,0.3,none,,missed
+spoon_01.jpeg,spoon,clutter,spoon,0.4,none,,missed
+spoon_01.jpeg,spoon,clutter,spoon,0.5,none,,missed
+spoon_01.jpeg,spoon,clutter,spoon,0.6,none,,missed
+spoon_01.jpeg,spoon,clutter,spoon,0.7,none,,missed
+spoon_01.jpeg,spoon,clutter,spoon,0.8,none,,missed
+spoon_01.jpeg,spoon,clutter,spoon,0.9,none,,missed
+spoon_02.jpeg,spoon,easy,spoon,0.1,spoon,0.543,correct
+spoon_02.jpeg,spoon,easy,spoon,0.2,spoon,0.543,correct
+spoon_02.jpeg,spoon,easy,spoon,0.25,spoon,0.543,correct
+spoon_02.jpeg,spoon,easy,spoon,0.3,spoon,0.543,correct
+spoon_02.jpeg,spoon,easy,spoon,0.4,spoon,0.543,correct
+spoon_02.jpeg,spoon,easy,spoon,0.5,spoon,0.543,correct
+spoon_02.jpeg,spoon,easy,spoon,0.6,none,,missed
+spoon_02.jpeg,spoon,easy,spoon,0.7,none,,missed
+spoon_02.jpeg,spoon,easy,spoon,0.8,none,,missed
+spoon_02.jpeg,spoon,easy,spoon,0.9,none,,missed
+spoon_03.jpeg,spoon,dim,spoon,0.1,spoon,0.416,correct
+spoon_03.jpeg,spoon,dim,spoon,0.2,spoon,0.416,correct
+spoon_03.jpeg,spoon,dim,spoon,0.25,spoon,0.416,correct
+spoon_03.jpeg,spoon,dim,spoon,0.3,spoon,0.416,correct
+spoon_03.jpeg,spoon,dim,spoon,0.4,spoon,0.416,correct
+spoon_03.jpeg,spoon,dim,spoon,0.5,none,,missed
+spoon_03.jpeg,spoon,dim,spoon,0.6,none,,missed
+spoon_03.jpeg,spoon,dim,spoon,0.7,none,,missed
+spoon_03.jpeg,spoon,dim,spoon,0.8,none,,missed
+spoon_03.jpeg,spoon,dim,spoon,0.9,none,,missed
+spoon_04.jpeg,spoon,far,spoon,0.1,none,,missed
+spoon_04.jpeg,spoon,far,spoon,0.2,none,,missed
+spoon_04.jpeg,spoon,far,spoon,0.25,none,,missed
+spoon_04.jpeg,spoon,far,spoon,0.3,none,,missed
+spoon_04.jpeg,spoon,far,spoon,0.4,none,,missed
+spoon_04.jpeg,spoon,far,spoon,0.5,none,,missed
+spoon_04.jpeg,spoon,far,spoon,0.6,none,,missed
+spoon_04.jpeg,spoon,far,spoon,0.7,none,,missed
+spoon_04.jpeg,spoon,far,spoon,0.8,none,,missed
+spoon_04.jpeg,spoon,far,spoon,0.9,none,,missed
+spoon_05.jpeg,spoon,held,spoon,0.1,spoon,0.474,correct
+spoon_05.jpeg,spoon,held,spoon,0.2,spoon,0.474,correct
+spoon_05.jpeg,spoon,held,spoon,0.25,spoon,0.474,correct
+spoon_05.jpeg,spoon,held,spoon,0.3,spoon,0.474,correct
+spoon_05.jpeg,spoon,held,spoon,0.4,spoon,0.474,correct
+spoon_05.jpeg,spoon,held,spoon,0.5,none,,missed
+spoon_05.jpeg,spoon,held,spoon,0.6,none,,missed
+spoon_05.jpeg,spoon,held,spoon,0.7,none,,missed
+spoon_05.jpeg,spoon,held,spoon,0.8,none,,missed
+spoon_05.jpeg,spoon,held,spoon,0.9,none,,missed
+spoon_06.jpeg,spoon,odd pose,spoon,0.1,none,,missed
+spoon_06.jpeg,spoon,odd pose,spoon,0.2,none,,missed
+spoon_06.jpeg,spoon,odd pose,spoon,0.25,none,,missed
+spoon_06.jpeg,spoon,odd pose,spoon,0.3,none,,missed
+spoon_06.jpeg,spoon,odd pose,spoon,0.4,none,,missed
+spoon_06.jpeg,spoon,odd pose,spoon,0.5,none,,missed
+spoon_06.jpeg,spoon,odd pose,spoon,0.6,none,,missed
+spoon_06.jpeg,spoon,odd pose,spoon,0.7,none,,missed
+spoon_06.jpeg,spoon,odd pose,spoon,0.8,none,,missed
+spoon_06.jpeg,spoon,odd pose,spoon,0.9,none,,missed
+none_01.jpeg,none,empty curtain,none,0.1,none,,correct
+none_01.jpeg,none,empty curtain,none,0.2,none,,correct
+none_01.jpeg,none,empty curtain,none,0.25,none,,correct
+none_01.jpeg,none,empty curtain,none,0.3,none,,correct
+none_01.jpeg,none,empty curtain,none,0.4,none,,correct
+none_01.jpeg,none,empty curtain,none,0.5,none,,correct
+none_01.jpeg,none,empty curtain,none,0.6,none,,correct
+none_01.jpeg,none,empty curtain,none,0.7,none,,correct
+none_01.jpeg,none,empty curtain,none,0.8,none,,correct
+none_01.jpeg,none,empty curtain,none,0.9,none,,correct
+none_02.jpeg,none,texture close-up,none,0.1,none,,correct
+none_02.jpeg,none,texture close-up,none,0.2,none,,correct
+none_02.jpeg,none,texture close-up,none,0.25,none,,correct
+none_02.jpeg,none,texture close-up,none,0.3,none,,correct
+none_02.jpeg,none,texture close-up,none,0.4,none,,correct
+none_02.jpeg,none,texture close-up,none,0.5,none,,correct
+none_02.jpeg,none,texture close-up,none,0.6,none,,correct
+none_02.jpeg,none,texture close-up,none,0.7,none,,correct
+none_02.jpeg,none,texture close-up,none,0.8,none,,correct
+none_02.jpeg,none,texture close-up,none,0.9,none,,correct
+none_03.jpeg,none,empty hand,none,0.1,none,,correct
+none_03.jpeg,none,empty hand,none,0.2,none,,correct
+none_03.jpeg,none,empty hand,none,0.25,none,,correct
+none_03.jpeg,none,empty hand,none,0.3,none,,correct
+none_03.jpeg,none,empty hand,none,0.4,none,,correct
+none_03.jpeg,none,empty hand,none,0.5,none,,correct
+none_03.jpeg,none,empty hand,none,0.6,none,,correct
+none_03.jpeg,none,empty hand,none,0.7,none,,correct
+none_03.jpeg,none,empty hand,none,0.8,none,,correct
+none_03.jpeg,none,empty hand,none,0.9,none,,correct
+none_04.jpeg,none,blank wall,none,0.1,none,,correct
+none_04.jpeg,none,blank wall,none,0.2,none,,correct
+none_04.jpeg,none,blank wall,none,0.25,none,,correct
+none_04.jpeg,none,blank wall,none,0.3,none,,correct
+none_04.jpeg,none,blank wall,none,0.4,none,,correct
+none_04.jpeg,none,blank wall,none,0.5,none,,correct
+none_04.jpeg,none,blank wall,none,0.6,none,,correct
+none_04.jpeg,none,blank wall,none,0.7,none,,correct
+none_04.jpeg,none,blank wall,none,0.8,none,,correct
+none_04.jpeg,none,blank wall,none,0.9,none,,correct
