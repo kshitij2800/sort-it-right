@@ -88,6 +88,12 @@ _(none right now)_
   may lose their bin heading (possible fix: put the page title in front of each chunk when embedding);
   Palpa text keeps the site's hard line breaks mid-sentence; a few short tail chunks mostly repeat the overlap.
 
+### LIMITATIONS.md (27 Nov)
+- Created `LIMITATIONS.md` with every limitation found in bricks 1–4: detection rate (58% vs 75% target), missed
+  far/held/tilted items, wrong-label risk, no COCO class for cans/cartons, material and deposit not visible,
+  small test set with easy "none" photos, Mikkeli-only and possibly outdated sources, copyright (links only),
+  layout-dependent extraction, chunks losing their heading, hardware/iCloud. Retrieval and answer limitations follow after bricks 6, 7, 10.
+
 ---
 
 ## Problems and fixes
